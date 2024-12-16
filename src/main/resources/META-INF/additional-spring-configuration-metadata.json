@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "token.secret.key",
+    "type": "java.lang.String",
+    "description": "A secret key for generating a token."
+  },
+  {
+    "name": "stripe.secret.key",
+    "type": "java.lang.String",
+    "description": "Stripe payment gateway secert key."
+  },
+  {
+    "name": "GCSB.project.id",
+    "type": "java.lang.String",
+    "description": "Google cloud storage bucket project id."
+  },
+  {
+    "name": "GCSB.bucket.name",
+    "type": "java.lang.String",
+    "description": "Google cloud storage bucket, bucket name."
+  },
+  {
+    "name": "google.application.credentials",
+    "type": "java.lang.String",
+    "description": "Path of google credentials json file."
+  },
+  {
+    "name": "twilio.whatsappNumber",
+    "type": "java.lang.String",
+    "description": "whatsApp number associatied with twilio account."
+  },
+  {
+    "name": "twilio.authToken",
+    "type": "java.lang.String",
+    "description": "Auth token of twilio account."
+  },
+  {
+    "name": "twilio.accountSid",
+    "type": "java.lang.String",
+    "description": "Sid of twilio account."
+  }
+]}
